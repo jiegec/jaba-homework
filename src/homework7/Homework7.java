@@ -5,6 +5,7 @@ import java.util.Map;
 import java.util.Scanner;
 import java.lang.Integer;
 
+// OOP应用实践——考勤记录
 class Teacher extends BaseStaff {
     private final int number;
     private final String gender;

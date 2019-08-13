@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.lang.Integer;
 
 // 大整数相加
 class Homework2 {

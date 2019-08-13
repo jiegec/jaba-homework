@@ -1,5 +1,6 @@
 import java.lang.Integer;
 
+// OOP基础知识——人类感受继承与多态
 class Man extends BasePerson implements Person
 {
     private final String name;
