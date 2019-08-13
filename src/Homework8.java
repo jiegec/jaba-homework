@@ -1,4 +1,3 @@
-
 import java.io.File;
 import java.io.IOException;
 import java.io.PrintStream;
@@ -6,6 +5,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
+// 【文件读写】考勤记录
 class Teacher extends BaseStaff {
     private final int number;
     private final String gender;
@@ -91,7 +91,7 @@ class Log {
     }
 }
 
-class Main {
+class Homework8 {
     public static void main(String[] args) {
         try {
             Scanner scn = new Scanner(new File("fileio.in"));
