@@ -14,6 +14,11 @@ class StrictPhilosopher extends Philosopher
 	{
 		final boolean result = super.letMeGo(place);
 		// TODO waiting use condition variable methods
+		if (result) {
+			while (whereAmI() != place) {
+				this.wait();
+			}
+		}
 		return result;
 	}
 
@@ -22,6 +27,7 @@ class StrictPhilosopher extends Philosopher
 	{
 		super.goWhereToGo();
 		// TODO awake others who're waiting this call
+        this.notifyAll();
 	}
 	
 	// Answer? Here's a hint that InterruptedException are only raised at specific times.
