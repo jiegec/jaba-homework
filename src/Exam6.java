@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.Scanner;
 
-class Main {
+class Exam6 {
     public static void main(String[] args) {
         Scanner scn = new Scanner(new BufferedReader(new InputStreamReader(System.in)));
         int n = scn.nextInt();
